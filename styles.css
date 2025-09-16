@@ -43,7 +43,8 @@ nav .name .title{
     margin-top: -2,5px;
 }
 nav .links{
-    display: flex;
+    /* change back - display:flex */
+    display: none;
 }
 nav .links a{
     font-family: main;
@@ -111,7 +112,8 @@ footer{
         color:white;
     }
     nav .menu_button{
-        display: flex;
+    /* change back - display:flex */
+        display: none;
     }
     nav .menu_button.active{
         align-items:flex;/*remove or change*/
